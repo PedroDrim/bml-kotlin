@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
     }
 
     builder.clear()
-    builder.append("[OK]{\"tamanho\": ").append(tamanho).append(",").append("\"tempo\": ").append(tempo).append(" ms").append("}")
+    builder.append("[OK]Tamanho: ").append(tamanho).append("\n").append("Tempo: ").append(tempo).append(" ms")
 
     // Retornando resposta
     println(builder.toString())
