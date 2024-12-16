@@ -1,5 +1,3 @@
-package simpleclass
-
 import model.UserInfo
 import kotlin.system.exitProcess
 import kotlin.system.measureTimeMillis
@@ -30,7 +28,8 @@ class App {
         }
 
         builder.clear()
-        builder.append("[OK]Tamanho: ").append(tamanho).append("\n").append("Tempo: ").append(tempo).append(" ms")
+        builder.append("[OK]Tamanho: ").append(tamanho).append("\n")
+        builder.append("[OK]Tempo: ").append(tempo).append(" ms")
 
         // Retornando resposta
         println(builder.toString())
