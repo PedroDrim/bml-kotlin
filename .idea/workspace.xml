@@ -126,6 +126,7 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+<<<<<<< HEAD
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
@@ -137,12 +138,18 @@
                 <item name="inputclass" type="f1a62948:ProjectNode" />
               </path>
             </expand>
+=======
+        <projects_view>
+          <tree_state>
+            <expand />
+>>>>>>> 59de3260f17abba309ca358573900c8b09fe0279
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -150,6 +157,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 59de3260f17abba309ca358573900c8b09fe0279
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -164,6 +173,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Gradle.Build bml-kotlin.executor&quot;: &quot;Run&quot;,
@@ -334,6 +344,56 @@
         <item itemvalue="Gradle.MaxValueAnalysisTest" />
         <item itemvalue="Gradle.TableTest" />
         <item itemvalue="Gradle.TableTest.testGetUserInfoList" />
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build bml-kotlin.executor": "Run",
+    "Kotlin.AppKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/pedro/Documentos/bml-pluggins/inputclass/bml-kotlin",
+    "show.migrate.to.gradle.popup": "false"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/home/pedro/.gradle"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/kotlin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleclass.AppKt" />
+      <module name="simpleclass.app.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="bml-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="bml-kotlin" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.AppKt" />
+>>>>>>> 59de3260f17abba309ca358573900c8b09fe0279
       </list>
     </recent_temporary>
   </component>
