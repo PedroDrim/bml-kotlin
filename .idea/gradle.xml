@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="GradleMigrationSettings" migrationVersion="1" />
-=======
->>>>>>> 59de3260f17abba309ca358573900c8b09fe0279
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
-        <option name="gradleJvm" value="graalvm-ce-21" />
-=======
->>>>>>> 59de3260f17abba309ca358573900c8b09fe0279
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
       </GradleProjectSettings>

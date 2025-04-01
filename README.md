@@ -12,29 +12,50 @@ Ferramentas utilizadas neste repositório bem como suas versões:
 |-----------|--------|
 |Kotlin     |2.0.0   |
 |JVM        |21      |
+|Docker     |24.0.7  |
 
 ### Instalação
 
-1. Clone este repositório com o comando abaixo, onde **<branch>>** se refere ao experimento que deseja realizar:
+1. Clone este repositório com o comando abaixo, onde **\<branch\>** se refere ao experimento que deseja realizar:
 
 ```
 git clone -b <branch> https://github.com/PedroDrim/bml-kotlin
 ```
 
-2. Configure o **JAVA_HOME** para uma versão compativel com JAVA 21:
+2. Instale o [**Docker**](https://docs.docker.com/engine/install/).
 
-
-3. Entre no diretório do repositório clonado e execute o arquivo **gradlew** com parametro **build**:
-
-```
-./gradlew build
-```
-
-3. Entre no diretório do repositório clonado e execute o arquivo **Bench.sh** passando como parametro o arquivo a ser lido no teste (.csv):
+3. Entre no diretório do repositório clonado e execute o **Docker** para iniciar as simulaçoes:
 
 ```
-./Bench.sh ./test.csv
+# Gerando build docker
+sudo docker build -t inputclass_kotlin .
+
+# Executando container
+sudo docker run inputclass_kotlin
 ```
+
+4. O resultado sairá no STDOUT no seguinte formato:
+
+```
+[START] Kotlin_1000000
+[OK]Tamanho: 1000000
+[OK]Tempo: 599 ms
+[END] Kotlin_1000000
+```
+
+### Garantia de Qualidade
+
+Este é um pequeno checklist para que eu garanta que a simulação irá funcionar seguindo os seguintes critérios de qualidade:
+
+- [x] Possui teste automatizado?
+- [x] Os testes automatizados funcionam corretamente?
+- [x] Possui arquivo de simulação (Bench.sh)?
+- [x] O arquivo de simulação (Bench.sh) funciona corretamente?
+- [x] Possui **Dockerfile**?
+- [x] O arquivo **Dockerfile** funciona corretamente?
+- [x] O repositório possui um passo-a-passo de como executar a simulação?
+- [x] Esta simulação está contida em um branch individual?
+- [x] Esta simulação possui um **release**?
 
 ### Experimentos
 
@@ -44,3 +65,4 @@ Esta seção é a mais divertida (na minha opinião), pois nela descrevo os expe
 |-----------------|----------|----------------------------------|
 | [simpleclass](https://github.com/PedroDrim/Benchmark-Languages/blob/simpleclass/Documents/simpleclass.md) | Estudar a criação de classes simples | Scatterplot de média com desvio padrão e regressão linear simples.|
 | [inputclass](https://github.com/PedroDrim/Benchmark-Languages/blob/master/outputs/inputclass/inputclass.md) | Estudar a leitura de arquivos e interfaces | Análise por média e exibição por Barplot estacado |
+
