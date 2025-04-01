@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea256a45-e396-40c4-ab93-aac852d8ae9a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="ea256a45-e396-40c4-ab93-aac852d8ae9a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,32 +60,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build bml-kotlin.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.UserInfoTest.executor": "Run",
-    "Gradle.bml-kotlin [jacocoTestReport].executor": "Run",
-    "Gradle.bml-kotlin [nativeCompile].executor": "Run",
-    "Gradle.bml-kotlin [nativeRun].executor": "Run",
-    "Gradle.bml-kotlin [nativeTestCompile].executor": "Run",
-    "Gradle.bml-kotlin [nativeTest].executor": "Run",
-    "Gradle.bml-kotlin [test].executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "simpleclass",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/pedro/Documentos/bml-pluggins/simpleclass/bml-kotlin",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build bml-kotlin.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserInfoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bml-kotlin [jacocoTestReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bml-kotlin [nativeCompile].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bml-kotlin [nativeRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bml-kotlin [nativeTestCompile].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bml-kotlin [nativeTest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bml-kotlin [test].executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;simpleclass&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pedro/Documentos/bml-pluggins/simpleclass/bml-kotlin&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "/home/pedro/.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;/home/pedro/.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin" />

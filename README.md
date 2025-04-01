@@ -1,5 +1,8 @@
 # bml-Kotlin
 
+[![Run Docker with Tests (R)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/kotlin.yml/badge.svg?branch=simpleclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/R.yml)
+[![Codacy Security Scan](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml/badge.svg?branch=simpleclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml)
+
 ### Introdução
 
 O objetivo deste repositório é estudar o comportamento, estrutura e o desempenho da linguagem Kotlin.
