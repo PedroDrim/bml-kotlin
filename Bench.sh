@@ -11,4 +11,4 @@ chmod +x bml-kotlin
 ./bml-kotlin data/data_D7.csv
 ./bml-kotlin data/data_D8.csv
 ./bml-kotlin data/data_D9.csv
-./bml-kotlin data/data_10.csv
+./bml-kotlin data/data_D10.csv
