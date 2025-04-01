@@ -30,7 +30,7 @@ jobs:
 
       - name: 📊 Executar testes e Gerar relatório de cobertura
         run: |
-            ./gradlew nativeTest
+            ./gradlew test
             ./gradlew jacocoTestReport            
 
       - name: 📤 Upload da cobertura de testes
