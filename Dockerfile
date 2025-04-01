@@ -7,7 +7,7 @@ WORKDIR /app
 COPY ./ /app/
 
 # Instalando pacotes
-RUN ./gradlew nativeCompile
+RUN ./gradlew test && ./gradlew nativeCompile
 
 # Iniciando CLI
 ENTRYPOINT ["sh","Bench.sh"]
