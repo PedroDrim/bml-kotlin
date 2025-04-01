@@ -1,3 +1,5 @@
+package org.example
+
 import model.SimpleTableAnalysis
 import model.Table
 import provider.MaxValueAnalysis
