@@ -1,0 +1,33 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '2.0.0'
+    id 'org.graalvm.buildtools.native' version '0.10.6'
+    id 'application'
+    id 'jacoco'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+}
+
+application {
+    mainClass.set("org.example.MainKt") // Substitua pelo nome correto da sua classe principal
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.jacocoTestReport {
+    dependsOn(tasks.test) // Garante que os testes rodem antes do relatório
+    reports {
+        xml.required.set(true)
+        html.required.set(false)
+    }
+}

@@ -1,40 +1,42 @@
+package org.example
+
 import model.UserInfo
+import java.util.ArrayList
 import kotlin.system.exitProcess
-import kotlin.system.measureTimeMillis
 
 /**
  * Função de inicialização do projeto
  * @param args Lista de parametros obtidos via console
  */
 fun main(args: Array<String>) {
-    // Tamanho dos objetos a serem gerados
-    val tamanho: Int = prepareArgs(args)
+    val tamanho = prepareArgs(args)
 
-    // Gerando builder e vetor de usuairos
-    val builder: StringBuilder = StringBuilder()
-    val list: Array<UserInfo?> = arrayOfNulls<UserInfo>(tamanho)
+    var builder = StringBuilder()
+    val list = ArrayList<UserInfo>()
 
-    // Medindo tempo
-    val tempo: Long = measureTimeMillis {
-        for (index in 0..<tamanho) {
-            builder.clear()
-            builder.append("user").append(index)
-            val user: String = builder.toString()
+    val antes = System.currentTimeMillis()
 
-            builder.clear()
-            builder.append("password").append(index)
-            val password: String = builder.toString()
+    for (index in 0..<tamanho) {
+        builder.append("user").append(index)
+        val user = builder.toString()
 
-            // Criando usuarios
-            list[index] = UserInfo(user, password)
-        }
+        builder = StringBuilder()
+
+        builder.append("password").append(index)
+        val password = builder.toString()
+
+        list.add(UserInfo(user, password))
     }
 
-    builder.clear()
-    builder.append("[OK]Tamanho: ").append(tamanho).append("\n").append("Tempo: ").append(tempo).append(" ms")
+    val time = System.currentTimeMillis() - antes
 
-    // Retornando resposta
+    builder = StringBuilder()
+    builder.append("[OK]Tamanho: ").append(tamanho).append("\n")
+    builder.append("[OK]Tempo: ").append(time).append(" ms")
+
+    println("[START] Kotlin_$tamanho")
     println(builder.toString())
+    println("[END] Kotlin_$tamanho")
 }
 
 /**
@@ -43,7 +45,6 @@ fun main(args: Array<String>) {
  * @return Tamanho de usuários á serem gerados
  */
 private fun prepareArgs(codes: Array<String>): Int {
-    // Verificando tamanho de parametro
     if (codes.size != 1) {
         println("Parametros inválidos.")
         exitProcess(-1)
@@ -51,7 +52,6 @@ private fun prepareArgs(codes: Array<String>): Int {
 
     val line = Integer.parseInt(codes[0])
 
-    // Validando quantidade de linhas
     if (line <= 0) {
         println("Quantidade de linhas menor que 1.")
         exitProcess(-1)

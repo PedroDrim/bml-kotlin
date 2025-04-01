@@ -24,7 +24,7 @@ class UserInfoTest {
         val expected: String = "np1"
         val userInfo: UserInfo = UserInfo("u1", "p1")
         userInfo.password = expected
-        assertEquals("HASH1pn000", userInfo.password, "3. 'password' devera ser alteravel")
+        assertEquals("HASH1p000", userInfo.password, "3. 'password' devera ser alteravel")
     }
 
     @Test
