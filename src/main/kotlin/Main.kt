@@ -55,7 +55,9 @@ class App {
         builder.append("[OK]Min: $minV").append("\n");
         builder.append("[OK]Mean: $meanV");
 
+        println("[START] $fileName\n")
         println(builder.toString())
+        println("[END] $fileName\n")
     }
 
     /**

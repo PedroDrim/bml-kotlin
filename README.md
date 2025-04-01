@@ -1,5 +1,8 @@
 # bml-Kotlin
 
+[![Run Docker with Tests (Kotlin)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/kotlin.yml/badge.svg?branch=inputclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/kotlin.yml)
+[![Codacy Security Scan](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml/badge.svg?branch=inputclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml)
+
 ### Introdução
 
 O objetivo deste repositório é estudar o comportamento, estrutura e o desempenho da linguagem Kotlin.
@@ -37,10 +40,14 @@ sudo docker run inputclass_kotlin
 4. O resultado sairá no STDOUT no seguinte formato:
 
 ```
-[START] Kotlin_1000000
-[OK]Tamanho: 1000000
-[OK]Tempo: 599 ms
-[END] Kotlin_1000000
+[START] Kotlin_data/data_D10.csv
+[OK]Arquivo: data/data_D10.csv
+[OK]TempoLeitura: 602 ms 
+[OK]TempoAnalise: 12 ms 
+[OK]Max: 1000000
+[OK]Min: 1
+[OK]Mean: 500000.5
+[END] Kotlin_data/data_D10.csv
 ```
 
 ### Garantia de Qualidade
