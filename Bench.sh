@@ -1,2 +1,6 @@
 #!/bin/bash
-java -jar build/libs/bml-kotlin-1.0-SNAPSHOT.jar $1
+mv build/native/nativeCompile/bml-kotlin ./bml-kotlin
+chmod +x bml-kotlin
+
+./bml-kotlin config.json > /dev/null
+cat benchmark.json

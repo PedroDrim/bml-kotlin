@@ -1,0 +1,35 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '2.0.0'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '2.0.0'
+    id 'org.graalvm.buildtools.native' version '0.10.6'
+    id 'application'
+    id 'jacoco'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0' // Versão mais segura
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+}
+
+application {
+    mainClass.set("org.example.MainKt") // Verifique se a classe está nesse pacote!
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.jacocoTestReport {
+    dependsOn(tasks.test)
+    reports {
+        xml.required.set(true)
+        html.required.set(false)
+    }
+}
