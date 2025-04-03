@@ -1,7 +1,7 @@
 # bml-Kotlin
 
-[![Run Docker with Tests (Kotlin)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/kotlin.yml/badge.svg?branch=inputclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/kotlin.yml)
-[![Codacy Security Scan](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml/badge.svg?branch=inputclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml)
+[![Run Docker with Tests (Kotlin)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/kotlin.yml/badge.svg?branch=errorclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/kotlin.yml)
+[![Codacy Security Scan](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml/badge.svg?branch=errorclass)](https://github.com/PedroDrim/bml-kotlin/actions/workflows/codacy.yml)
 
 ### Introdução
 
