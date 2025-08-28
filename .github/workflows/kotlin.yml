@@ -42,20 +42,6 @@ jobs:
   docker:
     name: 🐳 Build & Run Docker
     runs-on: ubuntu-latest
-    needs: test  # Só executa se os testes passarem
-
-    steps:
-      - name: 🚀 Checkout do código
-        uses: actions/checkout@v4
-
-      - name: 🏗️ Build da imagem Docker
-        run: docker build -t my-app .
-
-      - name: 🏃 Rodar o container
-        run: docker run --rm my-app  docker
-
-    name: 🐳 Build & Run Docker
-    runs-on: ubuntu-latest
     needs: test
 
     steps:
