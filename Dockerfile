@@ -22,7 +22,7 @@ COPY ./ /app/
 COPY --from=build ./build /app/data
 
 # Instalando pacotes
-RUN ./gradlew test && ./gradlew nativeCompile
+RUN ./gradlew test nativeCompile
 
 # Iniciando CLI
 ENTRYPOINT ["sh","Bench.sh"]
