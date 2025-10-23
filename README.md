@@ -31,10 +31,13 @@ git clone -b <branch> https://github.com/PedroDrim/bml-kotlin
 
 ```
 # Gerando build docker
-sudo docker build -t simpleclass_kotlin .
+sudo docker compose build
 
 # Executando container
-sudo docker run simpleclass_kotlin
+sudo docker compose up -d
+
+# Encerrando container
+sudo docker compose down -v
 ```
 
 4. O resultado sairá no STDOUT no seguinte formato:
